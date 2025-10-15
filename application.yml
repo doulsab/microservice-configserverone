@@ -1,6 +1,17 @@
 spring:
   application:
     name: default
+
+#This is for actuators
+management:
+ endpoints:
+   web:
+     exposure:
+       include: "*"
+ endpoint:
+   health:
+     show-details: always
+
 #This is eureka client configurations
 eureka:
   instance:
