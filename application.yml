@@ -4,7 +4,7 @@ spring:
 #This is eureka client configurations
 eureka:
   instance:
-    prefer-ip-address: true
+    prefer-ip-address: false
     hostname: localhost
   client:
     fetch-registry: true
