@@ -10,11 +10,6 @@ eureka:
     register-with-eureka: true
     service-url:
       defaultZone: http://localhost:8761/eureka
-
-spring:
-  application:
-    name: default
-
 #This is for actuators
 management:
  endpoints:
